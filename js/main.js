@@ -117,8 +117,5 @@
 
 
 
-setTimeout(function(){
-    document.getElementById('aap').className = 'waa';
-}, 5000);
 
 
