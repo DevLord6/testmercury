@@ -154,6 +154,18 @@ h6,
     }
 }
 
+
+
+    @media (max-width: 768px) {
+        .navbar img {
+            visibility: hidden !important;
+        }
+        
+      
+    }
+
+
+
 /*** Header ***/
 .carousel-caption {
     top: 0;
