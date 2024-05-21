@@ -156,16 +156,6 @@ h6,
 
 
 
-@media (max-width: 768px) {
-    img {
-        opacity:1;
-        transition:opacity 500ms;
-    }
-    img.waa {
-        opacity:0;
-    }
-  
-}
 
 
 
