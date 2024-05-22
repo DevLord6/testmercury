@@ -91,6 +91,10 @@ h6,
     font-weight: normal;
 }
 
+/* FONT */
+
+  /*End  */
+
 
 /*** Navbar ***/
 .fixed-top {
@@ -152,7 +156,11 @@ h6,
         transition: .5s;
         opacity: 1;
     }
+
+
+
 }
+
 
 
 
@@ -193,10 +201,28 @@ h6,
     border-radius: 3rem 0 0 3rem;
 }
 
+
+@media only screen and (min-width: 960px) {
+ 
+
+    #ss{
+      
+        display: none !important;
+    }
+   
+  
+}
+
+
+
+
+
+
 @media (max-width: 768px) {
-    #header-carousel .carousel-item {
+    /* #header-carousel .carousel-item {
         position: relative;
         min-height: 200px;
+        visibility: hidden !important;
     }
     
     #header-carousel .carousel-item img {
@@ -204,8 +230,31 @@ h6,
         width: 100%;
         height: 200px;
         object-fit: cover;
+        visibility: hidden !important;
         
     }
+
+    #header-carousel .carousel-control-prev  {
+        
+        visibility: hidden !important; 
+        
+    }
+    #header-carousel .carousel-control-next  {
+        
+        visibility: hidden !important;
+        
+    } */
+
+    #header-carousel{
+      
+        display: none !important;
+    }
+   
+    #header-carousel #ma {
+        
+        display: none !important;
+    }
+  
 }
 
 .page-header {
